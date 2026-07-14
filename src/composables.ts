@@ -2,14 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push, onValue } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB5w2vI011mPiblium-S-1kIIJx9Gr55jQ",
-    authDomain: "gumzoke.firebaseapp.com",
-    databaseURL: "https://gumzoke.firebaseio.com",
-    projectId: "gumzoke",
-    storageBucket: "gumzoke.appspot.com",
-    messagingSenderId: "626454045165",
-    appId: "1:626454045165:web:f503a7de6061aebfda87e4",
-    measurementId: "G-TPR9TC4JED"
+    apiKey: "AIzaSyB_poih_cmqLQi8wqwnjp1MLsoXAuih2Uo",
+    authDomain: "sema-d35f2.firebaseapp.com",
+    databaseURL: "https://sema-d35f2-default-rtdb.firebaseio.com",
+    projectId: "sema-d35f2",
+    storageBucket: "sema-d35f2.firebasestorage.app",
+    messagingSenderId: "183479451257",
+    appId: "1:183479451257:web:a9b50ab1f5d2189804dea8",
+    measurementId: "G-VESK66CRZ7"
 };
 
 interface ChatMessage {
